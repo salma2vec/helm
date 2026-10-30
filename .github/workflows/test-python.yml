@@ -1,7 +1,7 @@
 name: Test Python
 on:
   push:
-    branches: [ main ]
+    branches: [ main, codex/validate-summary-runs ]
     paths-ignore:
       - 'helm-frontend/**'
   pull_request:
